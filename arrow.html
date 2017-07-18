@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>arrow</title>
+	<style type="text/css">
+		.back-activity {
+			width: 32px;
+			height: 32px;
+			line-height: 32px;
+			position: absolute;
+			left: 10px;
+			top: 10px;
+			background-color: rgba(0,0,0,.4);
+			border-radius: 20px;
+			text-align: center;
+			z-index: 2;
+		}
+		.back-activity i {
+			display: block;
+			position: absolute;
+			top: 10px;
+			left: 12px;
+			width: 10px;
+			height: 10px;
+			border-top: 2px solid #fff;
+			border-right: 2px solid #fff;
+			transform: rotate(-135deg);
+			-ms-transform: rotate(-135deg);
+			-moz-transform: rotate(-135deg);
+			-webkit-transform: rotate(-135deg);
+			-o-transform: rotate(-135deg);
+		}
+	</style>
+</head>
+<body>
+	<div class="back-activity">
+		<a href="javascript:history.back(-1);"><i></i></a>
+	</div>
+</body>
+</html>
